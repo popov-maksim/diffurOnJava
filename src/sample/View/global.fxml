@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="540.0" prefWidth="680.0" xmlns="http://javafx.com/javafx/10.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller.GlobalController">
+    <children>
+        <LineChart fx:id="chart" layoutX="9.0" layoutY="14.0" prefHeight="418.0" prefWidth="669.0">
+            <xAxis>
+                <CategoryAxis label="N" side="BOTTOM" />
+            </xAxis>
+            <yAxis>
+                <NumberAxis label="Error" side="LEFT" />
+            </yAxis>
+        </LineChart>
+        <Button fx:id="backButton" layoutX="318.0" layoutY="452.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="105.0" text="Back" />
+    </children>
+</AnchorPane>
